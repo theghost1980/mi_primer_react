@@ -1,6 +1,8 @@
 import React from "react";
 
-function Noticias() {
+function Noticias({ valor1, valor2 }) {
+  console.log("Desde noticias.jsx: ", valor1 + valor2);
+
   return (
     <div>
       <h3>Noticias de ultima hora</h3>

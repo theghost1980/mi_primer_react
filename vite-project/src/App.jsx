@@ -8,6 +8,15 @@ import Noticias from "./components/Noticias";
 function App() {
   //codigo JS
 
+  var variable = 10;
+  const valor_numerico = 20;
+
+  function sum(valor1, valor2) {
+    return valor1 + valor2;
+  }
+
+  console.log(sum(10, 20));
+
   return (
     <div>
       {/* Codigo HTML */}
@@ -40,7 +49,7 @@ function App() {
         <li>3</li>
       </ol>
 
-      <Noticias />
+      <Noticias valor1={40} valor2={40} />
     </div>
   );
 }
